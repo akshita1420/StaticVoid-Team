@@ -1,78 +1,71 @@
 # Team StaticVoid - Student Management System
 
 ## Project Description
-A full-stack web application for managing student team members. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this application allows teams to manage their members' information efficiently.
+A full-stack MERN application for managing student team members. This application allows adding, viewing, and managing detailed information about team members including their academic and professional details.
 
 ## Features
-- Add new team members with detailed information
-- Upload profile images
-- View all team members in a responsive grid
-- View detailed member profiles
+- Add new team members with details and profile images
+- View all team members
+- View individual member details
+- Responsive and modern UI design
 - Delete team members
-- Responsive design for all devices
+- Upload and manage profile images
+- Detailed member profiles with academic and professional information
+- Clean and intuitive user interface
 
-## Tech Stack
-- Frontend: React.js, React Router, Axios
-- Backend: Node.js, Express.js
+## Technologies Used
+- Frontend: React.js
+- Backend: Node.js, Express
 - Database: MongoDB
+- Styling: CSS
 - File Upload: Multer
-- Styling: Custom CSS
+- HTTP Client: Axios
+- Routing: React Router DOM
 
 ## Prerequisites
-- Node.js (v14+)
+- Node.js (v14 or higher)
 - MongoDB
-- npm/yarn
+- npm or yarn
 
-## Installation
-
+## Installation Steps
 1. Clone the repository:
-```bash
-git clone https://github.com/akshita1420/Team-StaticVoid.git
-cd Team-StaticVoid
-```
-
+   ```bash
+   git clone https://github.com/akshita1420/Team-StaticVoid.git
+   cd Team-StaticVoid
+   ```
 2. Install backend dependencies:
-```bash
-cd backend
-npm install
-```
-
+   ```
+   cd backend
+   npm install
+   ```
 3. Install frontend dependencies:
-```bash
-cd frontend
-npm install
-```
-
+   ```
+   cd frontend
+   npm install
+   ```
 4. Create uploads directory:
-```bash
-mkdir -p backend/uploads
-```
+   ```bash
+   mkdir -p backend/uploads
+   ```
 
 ## Running the Application
-
-1. Start MongoDB service
-
-2. Start backend server:
-```bash
-cd backend
-npm start
-```
-
-3. Start frontend development server:
-```bash
-cd frontend
-npm start
-```
-
-4. Access the application at: http://localhost:3000
+1. Start the backend server:
+   ```
+   cd backend
+   node server.js
+   ```
+2. Start the frontend development server:
+   ```
+   cd frontend
+   npm start
+   ```
+3. Access the application at: http://localhost:3000
 
 ## API Endpoints
-
-### Members
-- GET `/api/members` - Get all members
-- GET `/api/members/:id` - Get member by ID
-- POST `/api/members` - Add new member
-- DELETE `/api/members/:id` - Delete member
+- `GET /api/members`: Retrieve all team members
+- `GET /api/members/:id`: Retrieve a specific team member
+- `POST /api/members`: Add a new team member
+- `DELETE /api/members/:id`: Delete a team member
 
 ## Project Structure
 ```
@@ -90,6 +83,12 @@ team-staticvoid/
 │   └── server.js
 └── README.md
 ```
+
+## Additional Notes
+- Ensure MongoDB is running locally
+- Profile images are stored in the `backend/uploads/` directory
+- All API endpoints are prefixed with `/api`
+- Make sure to have write permissions for the uploads directory
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first.

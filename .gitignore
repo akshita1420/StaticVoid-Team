@@ -7,7 +7,7 @@ node_modules/
 /build
 /frontend/build
 
-# Environment
+# Environment variables
 .env
 .env.local
 .env.development.local
@@ -23,10 +23,15 @@ yarn-error.log*
 /backend/uploads/*
 !/backend/uploads/.gitkeep
 
-# IDE
+# IDE specific files
 .vscode/
 .idea/
 
-# OS Files
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
