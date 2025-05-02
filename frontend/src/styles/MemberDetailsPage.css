@@ -1,0 +1,248 @@
+.member-details-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.member-details-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-image-container {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(45deg, #4a90e2, #357abd);
+}
+
+.profile-image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+.member-basic-info {
+  flex-grow: 1;
+  margin-bottom: 40px;
+}
+
+.member-basic-info h2 {
+  margin: 15px 0;
+  font-size: 2.2em;
+  background: linear-gradient(45deg, #2c3e50, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  background: linear-gradient(45deg, #4a90e2, #357abd);
+  color: white;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.member-details-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.detail-group {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.detail-group h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.detail-item {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.detail-item strong {
+  color: #2c3e50;
+  margin-right: 10px;
+}
+
+.back-button {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  background: linear-gradient(45deg, #4a90e2, #357abd);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+  background: linear-gradient(45deg, #357abd, #2c3e50);
+}
+
+@media (max-width: 768px) {
+  .member-details-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .member-details-content {
+    grid-template-columns: 1fr;
+  }
+
+  .member-details-container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .info-item {
+    flex-direction: column;
+  }
+
+  .info-label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.member-details-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.member-info {
+  text-align: center;
+}
+
+.member-info h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.member-info p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.member-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4a90e2;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.profile-info .role {
+  color: #4a90e2;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.back-btn {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.info-section {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.info-section h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+  font-size: 1.3em;
+}
+
+.info-item {
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info-label {
+  display: block;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.info-value {
+  display: block;
+  color: #666;
+  font-size: 1.1em;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
