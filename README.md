@@ -3,6 +3,15 @@
 ## Project Description
 A full-stack MERN application for managing the StaticVoid team members, featuring member profiles, academic details, and professional information.
 
+## Team Members
+
+Akshita Sahu [RA2211027010111]
+Shradha Rai [RA2211027010092]
+Parth Bhunia [RA2211027010096]
+Chetan Anand [RA2211027010110]
+
+
+
 ## Features
 - Add new team members with details and profile images
 - View all team members
