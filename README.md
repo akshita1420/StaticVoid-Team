@@ -6,8 +6,11 @@ A full-stack MERN application for managing the StaticVoid team members, featurin
 ## Team Members
 
 Akshita Sahu [RA2211027010111]
+
 Shradha Rai [RA2211027010092]
+
 Parth Bhunia [RA2211027010096]
+
 Chetan Anand [RA2211027010110]
 
 
